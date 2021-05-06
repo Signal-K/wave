@@ -17,7 +17,7 @@
  - [Fully Functional Blog](https://wave.devdojo.com/docs/features/blog)
  - [Out of the Box API](https://wave.devdojo.com/docs/features/api)
  - [Voyager Admin](https://wave.devdojo.com/docs/features/admin)
- - [Customizable Themes](https://wave.devdojo.com/docs/features/themes)
+ - [Customizable Themes.](https://wave.devdojo.com/docs/features/themes)
 
 
 ## Demo
