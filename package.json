@@ -1,0 +1,41 @@
+{
+  "name": "haydos",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "date-fns": "^2.25.0",
+    "figma-api": "^1.9.0",
+    "jsdom": "^18.1.0",
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-feather": "^2.0.9",
+    "react-use": "^17.3.1",
+    "rss-parser": "^3.12.0",
+    "slugify": "^1.6.2",
+    "spotify-web-api-node": "^5.0.2",
+    "steamapi": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.2.13",
+    "@types/node": "16.11.7",
+    "@types/react": "17.0.34",
+    "@types/spotify-web-api-node": "^5.0.3",
+    "@types/steamapi": "^2.2.2",
+    "eslint": "7",
+    "eslint-config-next": "12.0.3",
+    "pre-commit": "^1.2.2",
+    "typescript": "4.4.4"
+  },
+  "pre-commit": [
+    "lint",
+    "type-check"
+  ]
+}

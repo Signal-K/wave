@@ -1,0 +1,60 @@
+.source {
+  color: #838383;
+  margin-top: -1rem;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.commits {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.commit {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  text-decoration: none !important;
+}
+
+.commit:hover {
+  background: #e5e5e5;
+}
+
+.commit:not(:last-child) {
+  border-bottom: 1px solid #eeeff2;
+}
+
+.message, .sha {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sha {
+  font-size: 0.875rem;
+  color: #838383;
+  margin-top: 0.25rem !important;
+}
+
+.date {
+  text-align: right;
+}
+
+.commit p {
+  margin: 0;
+  display: block;
+}

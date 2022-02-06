@@ -1,0 +1,42 @@
+.content {
+  overflow: auto;
+  height: 100vh;
+  width: 100%;
+}
+
+.contentInner {
+  max-width: 48rem;
+  padding: 6rem 2.5rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contentInner figure {
+  margin: 0;
+}
+
+.contentInner img,
+.contentInner iframe {
+  max-width: 100%;
+}
+
+.contentInner a {
+  text-decoration: underline;
+}
+
+.contentInner h1,
+.contentInner h2,
+.contentInner h3,
+.contentInner h4,
+.contentInner h5,
+.contentInner h6 {
+  font-weight: 600;
+}
+
+.contentInner p {
+  line-height: 1.4;
+}
+
+.contentInner section {
+  margin-top: 6rem;
+}

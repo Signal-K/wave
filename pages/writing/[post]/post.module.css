@@ -1,0 +1,12 @@
+.metrics {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

@@ -1,0 +1,61 @@
+.tracks {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.track {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  text-decoration: none !important;
+}
+
+.track.current, .track:hover {
+  background: #e5e5e5;
+}
+
+.track:not(:last-child) {
+  border-bottom: 1px solid #eeeff2;
+}
+
+.image {
+  border-radius: 0.25rem;
+  overflow: hidden;
+  display: flex;
+  flex-shrink: 0;
+}
+
+.meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  overflow: hidden;
+}
+
+.info {
+  flex: 1;
+  overflow: hidden;
+}
+
+.name, .album {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.album {
+  font-size: 0.875rem;
+  color: #838383;
+  margin-top: 0.25rem !important;
+}
+
+.arrow {
+  text-align: right;
+}
+
+.track p {
+  margin: 0;
+  display: block;
+}
